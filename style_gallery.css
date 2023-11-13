@@ -105,7 +105,12 @@ border-color: #f57207
 	border-radius: 10px;
 	margin_bottom: 5%;
 	text-align: left;
-	
+	box-sizing: border-box;
+	flex: 1 1 21rem;
+	margin: 10px 20px;
+	flex-wrap: wrap;
+	align-self: normal;
+	display: flex;
 }
 
 .gallery-col img {
@@ -120,7 +125,7 @@ border-color: #f57207
 	padding: 0;
 }
 
-.gallery-col h3{
+.gallery-col h4{
 	margin-top: 16px;
 	margin-bottom: 15px;
 	text-align: left;
@@ -145,6 +150,7 @@ border-color: #f57207
 	border-spacing: 0;
 	border-radius: 12px 12px 12px 12px;
 	overflow: hidden;
+	margin-top: auto;
 	
 }
 
